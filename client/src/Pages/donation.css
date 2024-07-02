@@ -1,0 +1,56 @@
+/* donation-form.css */
+
+.donation-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ebedf0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .donation-form h3 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .donation-form .ant-row {
+    margin-bottom: 16px;
+  }
+  
+  .donation-form .ant-form-item-label {
+    text-align: left;
+  }
+  
+  .donation-form .ant-input,
+  .donation-form .ant-input-number {
+    border-radius: 4px;
+  }
+  
+  .donation-form .ant-input,
+  .donation-form .ant-input-number,
+  .donation-form .ant-input-affix-wrapper {
+    height: 40px;
+  }
+  
+  .donation-form .ant-input-affix-wrapper textarea.ant-input {
+    height: auto;
+  }
+  
+  .donation-form .ant-btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .donation-form .ant-btn-primary:hover,
+  .donation-form .ant-btn-primary:focus {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  .donation-form .ant-btn-primary:active {
+    background-color: #004499;
+    border-color: #004499;
+  }
+  

@@ -1,0 +1,337 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f2f2;
+  line-height: 1.6;
+  color: #444;
+}
+
+.DesignHolder {
+  width: 100%; /* Ensures it covers full width */
+  max-width:100%; /* Limits maximum width */
+  margin: 0 auto;
+  padding: 20px;
+}
+.Center {
+  text-align: center;
+}
+
+/* Header Styles */
+.site-logo {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.site-logo h1 {
+  font-size: 36px;
+  color: #007bff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Banner Styles */
+.Banner_sec {
+  background: linear-gradient(rgba(0, 123, 255, 0.9), rgba(0, 123, 255, 0.5)), url('https://imgs.search.brave.com/SFIWL2DogymlPRnv4np2mPB0Ky4-YhfHF1cUEW47_eQ/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAxLzY2LzQ3LzQz/LzM2MF9GXzE2NjQ3/NDMzMF9xZnYyZ21r/TUVSbEFVdHEzSTk4/a2N4d2IwMlNzd2VQ/Yy5qcGc') center/cover no-repeat;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.Banner_sec h3 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.Banner_sec p {
+  font-size: 24px;
+  margin-bottom: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.Banner_sec .more-details-btn {
+  display: inline-block;
+  padding: 15px 30px;
+  background: #007bff;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.Banner_sec .more-details-btn:hover {
+  background: #0056b3;
+}
+
+/* Slider Styles */
+#slider {
+  list-style: none;
+  padding: 0;
+  margin-top: 40px;
+  overflow: hidden;
+}
+
+#slider li {
+  float: left;
+  margin-right: 20px;
+}
+
+.Slider figure {
+  position: relative;
+  overflow: hidden;
+}
+
+.Slider img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.Slider img:hover {
+  transform: scale(1.05);
+}
+
+.Slider .text {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* About Section Styles */
+.About_sec {
+  background: #fff;
+  padding: 60px 20px;
+  margin-top: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.About_sec h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #007bff;
+}
+
+.Line {
+  width: 100px;
+  height: 3px;
+  background: #007bff;
+  margin: 0 auto 30px;
+}
+
+.Tabside {
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.tabLink {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.tabLink:hover {
+  color: #0056b3;
+}
+
+.tabLink.activeLink {
+  color: #000;
+  font-weight: bold;
+}
+
+.tabcontent {
+  margin-top: 20px;
+}
+
+.Description h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.Description p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #666;
+}
+
+/* Gallery Section Styles */
+.Services_sec {
+  background: #f2f2f2;
+  padding: 60px 20px;
+  margin-top: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.Services_sec h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #007bff;
+}
+
+.image-container {
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 20px 0;
+}
+
+.image {
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  margin-right: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.image:hover img {
+  transform: scale(1.1);
+}
+
+/* Donation Section Styles */
+.Pricing_sec {
+  background: #fff;
+  padding: 60px 20px;
+  margin-top: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.Pricing_sec h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #007bff;
+}
+
+.Pricing_sec p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.Pricing_sec .Line {
+  width: 100px;
+  height: 3px;
+  background: #007bff;
+  margin: 0 auto 30px;
+}
+
+.Pricing_sec .leftside,
+.Pricing_sec .rightside {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.Pricing_sec form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.Pricing_sec input,
+.Pricing_sec textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.Pricing_sec .submit_btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.Pricing_sec .submit_btn:hover {
+  background-color: #0056b3;
+}
+
+/* Footer Section Styles */
+.Footer_sec {
+  background: #007bff;
+  color: #fff;
+  padding: 60px 20px;
+  margin-top: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.Footerinner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footerside {
+  text-align: center;
+}
+
+.footerside h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.footerside p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .leftside,
+  .rightside {
+    width: 100%;
+  }
+}

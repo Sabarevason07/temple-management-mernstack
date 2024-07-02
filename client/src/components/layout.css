@@ -1,0 +1,111 @@
+/* layout.css */
+
+/* Reset and global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Top Navbar styles */
+.navbar {
+  background-color: #2b024e;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar-logo {
+  height: 40px;
+  width: auto;
+}
+
+.navbar-menu {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-item {
+  position: relative;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.navbar-item:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #ffffff;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.navbar-item:hover:before {
+  transform: scaleX(1);
+}
+
+.navbar-item:hover {
+  color: #ffffff;
+  transform: translateY(-3px);
+}
+
+.navbar-item a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  font-size: 1rem;
+}
+
+.navbar-item i {
+  margin-right: 8px;
+  font-size: 1.4rem;
+}
+
+.active-navbar-item {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* Top Menu bar styles */
+.menu-bar {
+  margin-top: 60px;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.notification-icon {
+  font-size: 24px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.profile-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.content {
+  padding: 80px 20px 20px;
+}
