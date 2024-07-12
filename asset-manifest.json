@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/temple-management-mernstack/static/css/main.04dec5bb.css",
+    "main.js": "/temple-management-mernstack/static/js/main.8e9e71ef.js",
+    "static/js/592.599f76a2.chunk.js": "/temple-management-mernstack/static/js/592.599f76a2.chunk.js",
+    "static/media/Brihadesvara_Temple,_Tanjavur,_India_02.jpg": "/temple-management-mernstack/static/media/Brihadesvara_Temple,_Tanjavur,_India_02.3ef9fcd3d58f333f9c2d.jpg",
+    "static/media/Murudeshwar-Temple.jpg": "/temple-management-mernstack/static/media/Murudeshwar-Temple.743a85698ecf2eb208ac.jpg",
+    "static/media/Slider-img2.jpg": "/temple-management-mernstack/static/media/Slider-img2.b983d00ea598550d0ac0.jpg",
+    "static/media/img2.jpg": "/temple-management-mernstack/static/media/img2.1f69dfafeeef0a36a7a0.jpg",
+    "static/media/Slider-img1.jpg": "/temple-management-mernstack/static/media/Slider-img1.f1edc90f2f83e759e46e.jpg",
+    "static/media/about-img1.jpg": "/temple-management-mernstack/static/media/about-img1.41daf29b90438834bd68.jpg",
+    "static/media/about-img2.jpg": "/temple-management-mernstack/static/media/about-img2.f0ddee2f487719296f46.jpg",
+    "static/media/img9.jpg": "/temple-management-mernstack/static/media/img9.733a0ba4d79344a47ff8.jpg",
+    "static/media/img7.jpg": "/temple-management-mernstack/static/media/img7.db2e472569f9810b96e8.jpg",
+    "static/media/img5.jpg": "/temple-management-mernstack/static/media/img5.fdadd1282eb046458ca1.jpg",
+    "static/media/img1.jpg": "/temple-management-mernstack/static/media/img1.7b17951dc779fe6f3768.jpg",
+    "static/media/img4.jpg": "/temple-management-mernstack/static/media/img4.6ae8e96f7d4c22452fb0.jpg",
+    "static/media/img10.jpg": "/temple-management-mernstack/static/media/img10.a478f3109a6c8959684e.jpg",
+    "static/media/img8.jpg": "/temple-management-mernstack/static/media/img8.5edbd07faacdb9baa1fb.jpg",
+    "static/media/img6.jpg": "/temple-management-mernstack/static/media/img6.40fbcc2e996e9497ef70.jpg",
+    "static/media/img3.jpg": "/temple-management-mernstack/static/media/img3.a0d6bb0300709718b643.jpg",
+    "static/media/about-img3.png": "/temple-management-mernstack/static/media/about-img3.a387057b26266b5ee7d9.png",
+    "index.html": "/temple-management-mernstack/index.html",
+    "main.04dec5bb.css.map": "/temple-management-mernstack/static/css/main.04dec5bb.css.map",
+    "main.8e9e71ef.js.map": "/temple-management-mernstack/static/js/main.8e9e71ef.js.map",
+    "592.599f76a2.chunk.js.map": "/temple-management-mernstack/static/js/592.599f76a2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04dec5bb.css",
+    "static/js/main.8e9e71ef.js"
+  ]
+}
